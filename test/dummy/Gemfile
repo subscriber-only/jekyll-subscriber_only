@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+# Copyright (c) 2023 Vitor Manuel de Sousa Pereira
+# SPDX-License-Identifier: MIT
+
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.2.0"
+gem "minima", "~> 2.5"
+gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-subscriber_only", path: "../../"
+end

@@ -1,0 +1,44 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.7
+
+Layout/LineLength:
+  Max: 80
+  AllowedPatterns: ['^(\s*#)']
+
+Metrics:
+  Enabled: false
+
+Style/Copyright:
+  Enabled: true
+  Notice: '^# Copyright \(c\) 2023 Vitor Manuel de Sousa Pereira'
+  AutocorrectNotice: |
+    # Copyright (c) 2023 Vitor Manuel de Sousa Pereira
+    # SPDX-License-Identifier: MIT
+
+Style/Documentation:
+  Enabled: false
+
+Style/ModuleFunction:
+  EnforcedStyle: extend_self
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/TrailingCommaInArguments:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: comma
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
